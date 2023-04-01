@@ -1,0 +1,65 @@
+/* Author: Hitesh Bhasin
+Student# 1167791  */
+
+#button_container {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 10px;
+}
+
+
+/* above is the css code for button_container */
+
+#button_container a {
+    border: 1px solid black;
+    padding: 10px;
+    border-radius: 3px;
+    background-color: lightgray;
+    height: auto;
+}
+
+
+/* above is the css code for button_container a tage <a> */
+
+#button_container a:hover {
+    background-color: white;
+}
+
+
+/* above is the css code for button_container a tage <a>  as the mouse hover it changes the color*/
+
+p {
+    border: 3px solid #ff2800;
+    padding: 15px;
+}
+
+
+/* above is the css code for pparagraph border and padding as per the instructions*/
+
+.bold {
+    font-weight: bold;
+}
+
+
+/* above is the css code for class called bold which get in to effect while JS code runs*/
+
+.colour {
+    color: #ff2800;
+}
+
+
+/* above is the css code for class called colour which get in to effect while JS code runs*/
+
+.width {
+    width: 50%;
+}
+
+
+/* above is the css code for class called width which get in to effect while JS code runs*/
+
+.size {
+    font-size: 12px;
+}
+
+
+/* above is the css code for class called size which get in to effect while JS code runs*/
