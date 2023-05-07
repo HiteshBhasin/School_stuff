@@ -11,13 +11,6 @@ document.addEventListener("DOMContentLoaded", function() {
         btn.innerHTML = "Generate Quote"
         this.body.appendChild(btn);
         const url = new URL('https://quote-garden.onrender.com/api/v3/quotes');
-        // const option = {
-        //     method: "GET",
-        //     headers: {
-        //         "key": 'SIGN-UP-FOR-KEY',
-        //         "host": 'healthruwords.p.rapidapi.com'
-        //     }
-        // }
         let bttn = document.querySelector('.generate');
         let clearDiv = document.querySelectorAll("#data");
         bttn.addEventListener("click", () => {
@@ -47,8 +40,6 @@ document.addEventListener("DOMContentLoaded", function() {
             bttn.addEventListener("click", () => {
 
             })
-
-
 
         })
     })
